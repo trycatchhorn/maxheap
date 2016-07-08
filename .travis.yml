@@ -1,4 +1,9 @@
 language: cpp
+sudo: required
 compiler:
 - gcc
+os:
+- linux
+- osx
+before_install: cd test
 script: make
