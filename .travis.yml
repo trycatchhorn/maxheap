@@ -6,4 +6,4 @@ os:
 - linux
 - osx
 before_install: cd test
-script: make
+script: make && ../scripts/run_tests.sh
